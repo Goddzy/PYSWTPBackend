@@ -8,7 +8,7 @@ app.use(express.json());
 app.use(cors({origin: 'http://localhost:4200'}));
 
 //Cargamos el modulo de direccionamiento de rutas
-//app.use('/api/agente', require('./src/routes/agente.route.js'));
+app.use('/api/socio', require('./src/routes/socio.route'));
 //app.use('/api/sector', require('./src/routes/sector.route'));
 
 
