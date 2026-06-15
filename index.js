@@ -12,6 +12,8 @@ app.use('/api/socio', require('./src/routes/socio.route'));
 app.use('/api/transaccion', require('./src/routes/transaccion.route'));
 //app.use('/api/sector', require('./src/routes/sector.route'));
 
+app.use('/api/empleado', require('./src/routes/empleado.route'));
+app.use('/api/publicacion', require('./src/routes/publicacion.route'));
 
 
 app.set('port', process.env.PORT || 3000);

@@ -16,7 +16,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon index.js"
+    "dev": "npx nodemon index.js"
   },
   "dependencies": {
     "cors": "^2.8.6",
@@ -25,7 +25,5 @@
     "pg-hstore": "^2.3.4",
     "sequelize": "^6.37.8"
   },
-  "devDependencies": {
-    "nodemon": "^3.1.14"
-  }
+  "devDependencies": {}
 }
