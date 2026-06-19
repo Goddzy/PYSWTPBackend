@@ -10,5 +10,8 @@ router.put('/:id', socioCtrl.updateSocio);
 router.delete('/:id', socioCtrl.deleteSocio);
 router.get('/activos', socioCtrl.getSociosActivos);
 
+router.get('/dni/:dni',socioCtrl.getSocioByDni);
+router.get('/num/:numSocio', socioCtrl.getSocioByNumSocio);
+router.get('/apellido/:apellido',socioCtrl.getSociosByApellido);
 
 module.exports = router;

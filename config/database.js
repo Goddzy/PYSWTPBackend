@@ -1,6 +1,6 @@
 const { Sequelize } = require('sequelize');
 
-const sequelize = new Sequelize('proyectoBackend', 'postgres', 'darian', {
+const sequelize = new Sequelize('proyectoBackend', 'postgres', 'postre123', {
 host: 'localhost',
 dialect: 'postgres',
 logging: false, // Evita que llene la consola con logs de consultas SQL básicas
